@@ -1,0 +1,9 @@
+/home/puneeth/Documents/codes/verilog/gate_level/shift_register.sv {1 {vlog -work work -vopt -sv -stats=none /home/puneeth/Documents/codes/verilog/gate_level/shift_register.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module d_ff
+-- Compiling module tb_dff
+
+Top level modules:
+	tb_dff
+
+} {} {}}

@@ -1,0 +1,267 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile dff.v
+run
+# No Design Loaded!
+run dff
+# No Design Loaded!
+load dff.v
+# couldn't load file "dff.v": dff.v: cannot open shared object file: No such file or directory
+ls
+# a.out
+# ambiguity.v
+# arth.v
+# check.vcd
+# comp_task.v
+# counter.v
+# dff.v
+# dff.v.bak
+# eight_bit_counter_t_flip_flop.v
+# forever_test.v
+# function_1.v
+# function_tb.v
+# generator.v
+# parallel_execution.v
+# push_ca.v
+# race_case.v
+# repeat_loop.v
+# ripple_counter.v
+# sr_flip_flop.v
+# state.v
+# sum_of_odd.v
+# swith_level_exprs.v
+# test_block.v
+# transcript
+ls
+# a.out
+# ambiguity.v
+# arth.v
+# check.vcd
+# comp_task.v
+# counter.v
+# dff.v
+# dff.v.bak
+# eight_bit_counter_t_flip_flop.v
+# forever_test.v
+# function_1.v
+# function_tb.v
+# generator.v
+# parallel_execution.v
+# push_ca.v
+# race_case.v
+# repeat_loop.v
+# ripple_counter.v
+# sr_flip_flop.v
+# state.v
+# sum_of_odd.v
+# swith_level_exprs.v
+# test_block.v
+# transcript
+load dff.v
+# couldn't load file "dff.v": dff.v: cannot open shared object file: No such file or directory
+load arth.v
+# couldn't load file "arth.v": arth.v: cannot open shared object file: No such file or directory
+help
+# Type help <command> to get information on that command, or try one of the following:
+#   commands  List all available commands and topics.
+#   Debugging Lists debugging commands.
+#   Execution Information on controlling execution of the simulation.
+#   Tcl       Information on Tcl commands.
+#   Tk        Information on Tk commands.
+#   incrTcl   Information on incrTcl commands.
+# 
+help commands
+# Help avaliable on the following topics and commands:
+# 	abort	add	add_cmdhelp	add_menu
+# 	add_menucb	add_menuitem	add_menurb	add_separator
+# 	add_submenu	addTime	after	alias
+# 	append	apply_button_adder	array	batch_mode
+# 	bd	bedit	bell	bgerror	binary
+# 	bind	bindtags	body	bp	break
+# 	button	call	canvas	catch	cd
+# 	cdbg	change	change_menu_cmd	check
+# 	checkbutton	checkpoint	class	clipboard
+# 	clock	close	code	concat	config
+# 	configure	cont	context	continue	dde
+# 	Debugging	delete	describe	destroy	disable_menu
+# 	disable_menuitem	disablebp	divTime	do
+# 	down	drivers	dumplog64	echo	edit
+# 	elite_edition	enable_menu	enable_menuitem
+# 	enablebp	encoding	ensemble	entry	env
+# 	environment	environment_nosource	eof
+# 	eqTime	error	eval	event	exa
+# 	examine	exec	execution	exit	expr
+# 	fblocked	fconfigure	fcopy	file	fileevent
+# 	find	findExec	flush	focus	font
+# 	for	force	foreach	format	formatTime
+# 	frame	get_menu_path	getactivecursortime
+# 	getactivemarkertime	gets	ginfo	glob
+# 	global	grab	grid	gteTime	gtTime
+# 	help	history	http	if	image
+# 	incr	incrTcl	info	int64ToReal
+# 	int64ToStr	interp	intToTime	jobspy	join
+# 	label	lappend	layout	lecho	left
+# 	lindex	linsert	list	listbox	llength
+# 	load	local	log	lower	lrange
+# 	lremove	lreplace	lsearch	lset	lshift
+# 	lsort	lsublist	lteTime	ltTime	luniq
+# 	max	menu	menubutton	message	msgcat
+# 	mulTime	namespace	namespaceOf	neqTime
+# 	next	noforce	nolog	notepad	notrace
+# 	noview	nowhen	onbreak	onElabError
+# 	onerror	onfinish	open	openlog	option
+# 	pack	package	panedwindow	parray
+# 	pathOf	pause	pedit	personal_edition
+# 	pid	place	pop	precision	PrefSource
+# 	PrefSource(geometry)	PrefSource(HDLFileTypes)	PrefSource(HighlightErrorColor)
+# 	PrefSource(highlightExecutableLines)	PrefSource(tabs)	PrefSource(user_hook)
+# 	PrefSource(verilogFileTypes)	PrefSource(vhdlFileTypes)	PrefSource(WarnSourceChanged)
+# 	printenv	proc	project	property	push
+# 	puterr	puts	pwd	qhdel	qhdir
+# 	qhlib	questasim	quietly	quit	qverilog
+# 	qvhcom	qvlcom	radiobutton	radix
+# 	raise	read	readers	RealToTime	regexp
+# 	registry	regsub	rename	renamelog	report
+# 	restart	restore	resume	return	right
+# 	rincr	run	runStatus	sbrk	scale
+# 	scaleTime	scan	sccom	scgenmod	scope
+# 	scrollbar	sdfcom	search	searchlog	see
+# 	seek	seetime	selection	send	set
+# 	setenv	shift	show	simNamespaceIsOpen
+# 	simstats	simstatslist	simtime	slave_mode
+# 	socket	source	spinbox	split	status
+# 	step	stop	string	subst	subTime
+# 	suppress	switch	tabset	tb	tcheck_set
+# 	tcheck_status	Tcl	tcl_endOfWord
+# 	tcl_findLibrary	tcl_startOfNextWord	tcl_startOfPreviousWord
+# 	tcl_wordBreakAfter	tcl_wordBreakBefore	tell
+# 	text	time	tix	Tk	tk
+# 	tk_chooseColor	tk_chooseDirectory	tk_dialog
+# 	tk_getOpenFile	tk_getSaveFile	tk_menuSetFocus
+# 	tk_messageBox	tk_popup	tk_textCopy
+# 	tk_textCut	tk_textPaste	tkwait	toggle
+# 	toplevel	trace	transcribe	transcript	truncate
+# 	tssi2mti	typespec	ui_VVMode	unknown	unset
+# 	unsetenv	up	update	uplevel	upvar
+# 	usual	validTime	variable	vcd	vcd2wlf
+# 	vcom	vdbg	vdel	vdir	vencrypt
+# 	verror	vgencomp	vhencrypt	view	virtual
+# 	vlib	vlog	vmake	vmap	vopt
+# 	vsim	vsim_break	vsimAuth	vsimDate	vsimId
+# 	vsimVersion	vsimVersionString	vsource
+# 	vwait	when	where	while	winfo
+# 	wlf2log	wlf2vcd	wlfman	wlfrecover	wm
+# 	write	xml2ucdb	zdebugging
+# 
+help commands load
+# No help for commands load available.
+open arth.v
+# file12
+load file2
+# couldn't load file "file2": file2: cannot open shared object file: No such file or directory
+load file12
+# couldn't load file "file12": file12: cannot open shared object file: No such file or directory
+open dff.v
+# file13
+vlib work
+vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/dff.v
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:27:48 on Jun 24,2022
+# vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/dff.v 
+# ** Error: (vlog-13069) /home/puneeth/Documents/codes/verilog/behavioural/dff.v(1): near "dff": syntax error, unexpected IDENTIFIER.
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/dff.v(1): (vlog-13205) Syntax error found in the scope following 'moudle'. Is there a missing '::'?
+# End time: 23:27:48 on Jun 24,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/dff.v
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:27:52 on Jun 24,2022
+# vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/dff.v 
+# ** Error: (vlog-13069) /home/puneeth/Documents/codes/verilog/behavioural/dff.v(1): near "dff": syntax error, unexpected IDENTIFIER.
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/dff.v(1): (vlog-13205) Syntax error found in the scope following 'moudle'. Is there a missing '::'?
+# End time: 23:27:52 on Jun 24,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/arth.v
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:28:18 on Jun 24,2022
+# vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/arth.v 
+# -- Compiling module add
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(3): In, out, or inout does not appear in port list: out.
+# -- Compiling module substract
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(12): In, out, or inout does not appear in port list: out.
+# -- Compiling module multiply
+# -- Compiling module divide
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(30): In, out, or inout does not appear in port list: out.
+# -- Compiling module test_calc
+# End time: 23:28:18 on Jun 24,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/puneeth/intelFPGA_lite/21.1/questa_fse/linux_x86_64/vlog failed.
+ls
+# a.out
+# ambiguity.v
+# arth.v
+# check.vcd
+# comp_task.v
+# counter.v
+# dff.v
+# dff.v.bak
+# eight_bit_counter_t_flip_flop.v
+# forever_test.v
+# function_1.v
+# function_tb.v
+# generator.v
+# parallel_execution.v
+# push_ca.v
+# race_case.v
+# repeat_loop.v
+# ripple_counter.v
+# sr_flip_flop.v
+# state.v
+# sum_of_odd.v
+# swith_level_exprs.v
+# test_block.v
+# transcript
+# work
+vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/counter.v
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:28:29 on Jun 24,2022
+# vlog -reportprogress 300 -work work /home/puneeth/Documents/codes/verilog/behavioural/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 23:28:29 on Jun 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -vopt work.test_calc
+# vsim -vopt work.test_calc 
+# Start time: 23:28:40 on Jun 24,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(40): Module 'add' is not defined.
+#  For instance 'a1' at path 'test_calc'
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(41): Module 'substract' is not defined.
+#  For instance 's1' at path 'test_calc'
+# ** Error: /home/puneeth/Documents/codes/verilog/behavioural/arth.v(43): Module 'divide' is not defined.
+#  For instance 'd1' at path 'test_calc'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=0.
+# Error loading design
+# End time: 23:28:40 on Jun 24,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vsim -voptargs=+acc work.counter
+# vsim -voptargs="+acc" work.counter 
+# Start time: 23:28:54 on Jun 24,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.counter(fast)
+# End time: 23:29:03 on Jun 24,2022, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

@@ -1,0 +1,12 @@
+*.out
+*.cache
+*.sim
+*.bak
+*.vcd
+*db
+work
+qrun
+output_files
+simulation
+*.log
+obj_dir
