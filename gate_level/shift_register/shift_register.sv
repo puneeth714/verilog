@@ -1,6 +1,7 @@
 module shift_register #(parameter SIZE=10)(clk,out);
 input  clk;
 output  out;
+
 logic w1[SIZE-1:0];
 genvar d_ff_count;
 generate
@@ -14,27 +15,20 @@ generate
         begin
             d_ff d1(w1[d_ff_count-1],clk,w1[d_ff_count]);
         end
-         //FIXME : THe else statement should have d_ff_count-1 insted to get the wire from previous register.
+         //BUG_FIX : THe else statement should have d_ff_count-1 insted to get the wire from previous register.
 		  else
 		  begin
 		  d_ff d2(w1[d_ff_count-1],clk,out);
 		  end
     end
 endgenerate
-
 endmodule
 
 module d_ff(d,clk,q);
 input d,clk;
-output  q;
-wire q_bar;
-
-wire w1, w2;
-nand n1(w1,d,clk);
-nand n2(w2,!d,clk);
-nand n3(q,w1,q_bar);
-nand n4(q_bar,w2,q);
-
+output reg q;
+always @(posedge clk)
+    q <= d;
 endmodule
 
 // module dff_tb;
@@ -73,8 +67,7 @@ initial begin clk=0; end
 always #10 clk=!clk;
 initial 
 begin
-    force s1.out=1'b1;
-    release s1.out;
+
     $monitor("clk=%d ,out=%d",clk,out);
 #2000 $stop;
 end

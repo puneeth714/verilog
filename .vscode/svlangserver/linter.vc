@@ -2,7 +2,10 @@
 +incdir+/home/puneeth/Documents/codes/verilog/data_flow
 +incdir+/home/puneeth/Documents/codes/verilog/gate_level
 +incdir+/home/puneeth/Documents/codes/verilog/gate_level/shift_register
++incdir+/home/puneeth/Documents/codes/verilog/projects/encoder_decoder
 +incdir+/home/puneeth/Documents/codes/verilog/projects/mux_operation_case
++incdir+/home/puneeth/Documents/codes/verilog/projects/parity_calc
++incdir+/home/puneeth/Documents/codes/verilog/projects/shift_register
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog/assertion2
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog/asserton
@@ -15,7 +18,10 @@
 +incdir+/home/puneeth/Documents/codes/verilog/data_flow
 +incdir+/home/puneeth/Documents/codes/verilog/gate_level
 +incdir+/home/puneeth/Documents/codes/verilog/gate_level/shift_register
++incdir+/home/puneeth/Documents/codes/verilog/projects/encoder_decoder
 +incdir+/home/puneeth/Documents/codes/verilog/projects/mux_operation_case
++incdir+/home/puneeth/Documents/codes/verilog/projects/parity_calc
++incdir+/home/puneeth/Documents/codes/verilog/projects/shift_register
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog/assertion2
 +incdir+/home/puneeth/Documents/codes/verilog/system_verilog/asserton

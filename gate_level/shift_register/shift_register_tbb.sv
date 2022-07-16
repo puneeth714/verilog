@@ -1,4 +1,4 @@
-`include "shift_register";
+`include "gate_level/shift_register/shift_register.sv";
 module shift_register_tb;
 reg clk;
 wire out;
